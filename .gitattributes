@@ -1,3 +1,4 @@
 *.gguf filter=lfs diff=lfs merge=lfs -text
 llava-v1.5-7b-q4_k.gguf.part_* filter=lfs diff=lfs merge=lfs -text
 *.part-* filter=lfs diff=lfs merge=lfs -text
+qwen2.5vl-7b.tar.part-a* filter=lfs diff=lfs merge=lfs -text
